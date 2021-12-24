@@ -1,0 +1,19 @@
+
+.inputEdit>*{
+    width: 100%;
+
+}
+
+.up{
+    margin-left: 15px;
+      background-color: rgb(149, 123, 218);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+    
+  }
+.up:hover{
+  background-color: blueviolet;
+}

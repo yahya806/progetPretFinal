@@ -1,0 +1,39 @@
+
+.liste {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  align-items: space-between;
+}
+.liste > * {
+  margin-top: 50px;
+}
+.hed {
+  padding-top: 2%;
+  background-color: #16151a;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.bute {
+  margin-top: 1.5%;
+  margin-left: 10%;
+  border-radius: 20px;
+  width: 30%;
+}
+.a8 {
+  padding-top: 2.5%;
+  width: 40%;
+}
+.rech {
+    padding-top: 3%;
+    margin-top: 32px;
+    display: flex;
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  justify-content: center;
+ 
+}

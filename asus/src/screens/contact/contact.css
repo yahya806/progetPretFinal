@@ -1,0 +1,294 @@
+.kolchay{
+    padding-top: 70px;
+    /* background-color: #16151a; */
+    background-color: black;
+   
+   
+}
+.te7tkolchay{
+    border-radius: 35px;
+    background-color: #16151a;
+}
+.titlecontact{
+  padding-left: 2%;
+}
+.community{
+  margin-top: 25px;
+    border-radius: 30px;
+    background-color: #16151a;
+}
+ul.socialIcons {
+  width: 20%;
+    padding: 0;
+    padding-top: 5%;
+    /* text-align: center; */
+    /* background-color: blue; */
+    height: 45%;
+    
+  }
+  
+  .socialIcons li {
+    height: 25%;
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  .socialIcons li a {
+    
+    display: block;
+    padding: 0.5em;
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em; /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: rgb(255, 255, 255);
+  }
+  
+  .socialIcons li i {
+    margin-right: 1em;
+   
+
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  
+  .socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+  }
+  
+  .socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+  
+  .socialIcons .instagram {
+    background-color: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+  }
+  
+  
+  .information{
+    padding-left: 2%;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+  }
+  .sociale{
+
+      padding-top:5px;
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+  }
+  .soc1{
+    color: rgb(126, 126, 180);
+    padding-left: 2.5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 17%;
+    /* background-color: brown; */
+  }
+  .adres{
+    border-radius: 25px;
+    background-color: #201e25;
+    width: 50%;
+   padding-top: 5%;
+   padding-left: 2%;
+  }
+ .adres>*{
+   color: rgb(126, 126, 180);
+ }
+  .elmap{
+    padding-left: 2%;
+    padding-right: 2%;
+      flex: 1;
+      border-radius: 10px 100px / 120px;
+  }
+
+
+  .userCard{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 8px;
+  }
+
+
+  .userCard img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .showuser{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .showuser>*{
+   margin-top: 50px;
+  }
+
+
+
+                    /* form */
+
+                   .feedbk {
+                      box-sizing: border-box;
+                      width: 50%;
+
+                    }
+                    
+                    input[type=text], select, textarea {
+                      width: 100%;
+                      padding: 12px;
+                      border: 6px solid #ccc;
+                      border-radius: 4px;
+                      resize: vertical;
+                    }
+                    
+                    label {
+                      color: rgb(154, 78, 226);
+                      padding: 12px 12px 12px 0;
+                      display: inline-block;
+                    }
+                    
+                    input[type=submit] {
+                      background-color: rgb(149, 123, 218);
+                      color: white;
+                      padding: 10px 25px;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                      
+                    }
+                    
+                    input[type=submit]:hover {
+                      background-color: blueviolet;
+                    }
+                    
+                    .containere {
+                
+                      margin-right: 6%;
+                      border-radius: 25px;
+                      background-color: #201e25;
+                      padding: 20px;
+                    }
+                    
+                    .col-25 {
+                      float: left;
+                      width: 25%;
+                      margin-top: 6px;
+                    }
+                    
+                    .col-75 {
+                      border: none;
+                      border: 1px solid rgb(152, 77, 223);
+                      border-radius: 15px !important;
+                      float: left;
+                      width: 75%;
+                      margin-top: 6px;
+                    }
+                    
+                    /* Clear floats after the columns */
+                    .row:after {
+                      content: "";
+                      display: table;
+                      clear: both;
+                    }
+                    
+                    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+                    @media screen and (max-width: 600px) {
+                      .col-25, .col-75, input[type=submit] {
+                        width: 100%;
+                        margin-top: 0;
+                      }
+                    }
+
+  .fogelfeed{
+    padding-left: 2%;
+    border-radius: 25px;
+    background-color: #16151a;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+  }
+  .picfeed {
+    padding-right: 2%;
+  padding-top: 4.7%;
+    width: 50%;
+    background-color: #16151a;
+    border-radius: 25px;
+  }
+  .felpic{
+    height:85vh;
+    
+    
+  }
+  #butsend{
+    margin-left: 15px;
+      background-color: rgb(149, 123, 218);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    
+  }
+#butsend:hover{
+  background-color: blueviolet;
+}
+
+  #butclose{
+    background-color: rgb(204, 44, 39);
+margin-left: 22em;
+    padding: 12px 24px;
+    color: white;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+  }
+  #butclose:hover{
+    background-color: red;
+  }
+  #sendb{
+    padding-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .tex{
+    margin-top: 6px;
+    border-radius: 15px;
+  }
+  #deluser{
+   margin-bottom: 0%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    background-color: rgb(216, 12, 12);
+    border-radius: 15px;
+  }
+  #deluser:hover{
+    background-color: red;
+  }
+  #idp{
+    height: 40px;
+  }

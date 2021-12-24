@@ -1,0 +1,74 @@
+
+.bodd{
+  background-color: black;
+}
+.colla{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.colli{
+  border: none;
+  border: 1px solid rgb(152, 77, 223);
+  border-radius: 15px !important;
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.addInput{
+border-radius: 25px !important;
+background-color: #16151a;
+padding: 1.2em;
+width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+ 
+
+  .addInput>*{
+    width: 100%;
+  } 
+  .titleadd{
+padding-top: 5%;
+height: 100%;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    background-color: #16151a;
+    border-radius: 15px;
+    
+  }
+  .boxa{
+    
+border-radius: 25px;
+  }
+  .boxb{
+    width: 100%;
+    margin-top:10px ;
+    margin-right: 10px;
+  }
+  .boxb>*{
+    width:100% !important;
+    height: 97.5%;
+border-radius: 25px;
+
+  }
+
+  #butadd{
+    
+    background-color: rgb(149, 123, 218);
+    color: white;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  
+}
+#butadd:hover{
+background-color: blueviolet;
+}
